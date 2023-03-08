@@ -1,3 +1,4 @@
-//repeat= repite el texto la cantidad de veces que le demos como parametro
+//replace= Reemplaza x palabra por una palabra dada
 let texto=" Estoy aprendiendo todos los metodos de la clase String"
-console.log(texto.repeat(3)); 
+
+console.log(texto.replace('aprendiendo','practicando')); //estoy aprendiendo todos los metodos
