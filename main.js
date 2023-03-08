@@ -2,10 +2,14 @@
 
 //Operadores de Comparancion
 
-// Mayor que (>) y (>=)
+// Mayor que (<) y (<=)
 
-const num=254
+const num=150
 const num2=254
 
-console.log(num>num2);//False, el primer numero no es mayor 
-console.log(num>=num2); //el primero no es mayor pero si es igual
+
+const num3=400
+const num4=254
+
+console.log(num<num2);//True, el primer numero es menor
+console.log(num3<=num4); //False, el primero no es menor
