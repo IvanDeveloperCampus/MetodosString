@@ -2,9 +2,11 @@
 
 //Operadores de Comparancion
 
-//Igual (==)
+//No es Igual (==)
 
 const num=254
-const num2=254
+const num2=390
 
-console.log(num==num2);//TRUE
+console.log(num!=num2);//TRUE
+
+//devuelve true por que se cumple la condicion de que no son iguales
