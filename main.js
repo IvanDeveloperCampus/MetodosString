@@ -1,13 +1,10 @@
 
 
-//OPERADORES LOGICOS AND(&&), OR( ), NOT(!)
+//Operadores de Comparancion
 
+//Igual (==)
 
-/**El operador ! (NOT) invierte el valor de su operando. Si el operando es verdadero, devuelve
- *  false; si el operando es falso, devuelve true. Por ejemplo: */
+const num=254
+const num2=254
 
-console.log(!true); // false
-console.log(!false); // true
-
-
-
+console.log(num==num2);//TRUE
