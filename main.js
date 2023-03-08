@@ -2,11 +2,14 @@
 
 //Operadores de Comparancion
 
-//No es Igual (==)
+//Estrictamente (===) : Compara si son iguales y de el mismo tipó de dato
 
 const num=254
-const num2=390
+const num2="254"
 
-console.log(num!=num2);//TRUE
+console.log(num!=num2);//False, son iguales pero diferente tipo de dat
 
-//devuelve true por que se cumple la condicion de que no son iguales
+
+const num3="Hola"
+const num4="Hola"
+console.log(num3===num4); //True son iguales y de el mismo tipó de dato
