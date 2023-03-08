@@ -1,15 +1,10 @@
 
 
-//Operadores de Comparancion
+//Operadores Aritmeticos
 
-// Mayor que (<) y (<=)
+// Residuo ( % )
 
-const num=150
-const num2=254
+num1=32
+num2=8
 
-
-const num3=400
-const num4=254
-
-console.log(num<num2);//True, el primer numero es menor
-console.log(num3<=num4); //False, el primero no es menor
+console.log(num1%num1);//El residuo es 0
