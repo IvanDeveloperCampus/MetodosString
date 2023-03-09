@@ -1,10 +1,11 @@
 
 
-//Operadores Aritmeticos
+//Operadores Condicional
 
-//  Decremento ( -- )
+//  Ternario
 
-num1=4
+edad=17
 
-num1--;
-console.log(num1);//El resultado es 3
+const estado = (edad>=18) ? "Es mayor de edad" : "Es menor de edad";
+
+console.log(estado); //Es menor de edad
