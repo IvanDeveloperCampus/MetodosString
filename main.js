@@ -2,10 +2,11 @@
 
 //Objeto Math
 
-//raiz cuadrada .sqrt() 
+//Potencia .pow() = el primer parametro es el numero a elevar 
+//y el segundo parametro es la cantidad a elevar
 
-const resultadoRaiz=Math.sqrt(49)
+const resultadoPotencia=Math.pow(2,4)
 
-console.log(resultadoRaiz);//7
+console.log(resultadoPotencia);//16
 
 
