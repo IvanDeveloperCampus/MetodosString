@@ -2,11 +2,10 @@
 
 //Objeto Math
 
-//Potencia .pow() = el primer parametro es el numero a elevar 
-//y el segundo parametro es la cantidad a elevar
+//Potencia .min // selecciona el numero menor
 
-const resultadoPotencia=Math.pow(2,4)
+const resultadoNroMenor=Math.min(35,12,69,458,12)
 
-console.log(resultadoPotencia);//16
+console.log(resultadoNroMenor);//12
 
 
