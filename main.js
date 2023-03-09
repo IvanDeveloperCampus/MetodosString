@@ -2,14 +2,10 @@
 
 //Objeto Math
 
-//redondeo (round) se redonde al entero mas cercano
+//raiz cuadrada .sqrt() 
 
-const resultadoRedondeo=Math.round(2.4); 
+const resultadoRaiz=Math.sqrt(49)
 
-console.log(resultadoRedondeo);//2
+console.log(resultadoRaiz);//7
 
-
-const resultadoRedondeo2=Math.round(2.7); 
-
-console.log(resultadoRedondeo2);//3
 
