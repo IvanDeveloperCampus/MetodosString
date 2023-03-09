@@ -2,10 +2,10 @@
 
 //Objeto Math
 
-//Potencia .min // selecciona el numero menor
+//Potencia .max // selecciona el numero mayor
 
-const resultadoNroMenor=Math.min(35,12,69,458,12)
+const resultadoNroMenor=Math.max(35,12,69,458,12)
 
-console.log(resultadoNroMenor);//12
+console.log(resultadoNroMenor);//458
 
 
