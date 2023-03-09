@@ -2,10 +2,17 @@
 
 //Objeto Math
 
-//Potencia .max // selecciona el numero mayor
+//Random =  nos escoge un numero al azar
 
-const resultadoNroMenor=Math.max(35,12,69,458,12)
+const resultadoRandom=Math.random()
 
-console.log(resultadoNroMenor);//458
+console.log(resultadoRandom); //Numero X
 
+
+//Escoje un numero entre 0 y 10 
+console.log(Math.floor(Math.random() * 10));
+
+
+//Escoje un numero entre 200 y 215
+console.log(Math.floor(Math.random()* 15) + 200);
 
